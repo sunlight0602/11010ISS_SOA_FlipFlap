@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative 'flip_flap'
+require_relative 'flip_flap'  # import class
 
 usage = 'Usage:  tsv_to_yml [TSV_file] [YML_file]\n'
 raise ArgumentError, usage if ARGV.count.zero?
